@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="img/favicon.png" type="image/png">
+	<title>Straight Design</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery.lazy.min.js"></script>
+	<script src="js/jquery.lazy.plugins.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</head>
+
+<body class="p0m0">
+
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v3.2'
+    });
+  };
+
+  (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="999215153600507"
+  theme_color="#0b6c82">
+</div>
+
+<div class="row p3m0">
+
+	<div class="col-sm-6 col-xs-12" style="padding-left: 30px; padding-top: 10px;">
+		<div class="company-bg" id="free1">
+			<img src="img/items/files/p.jpg" class="item-image animated pulse">
+			<div class="item-overlay">
+				<p class="text-center item-text" style="font-size: 2rem !important">Download</p>
+			</div>							  
+		</div>
+	</div>
+
+	<div class="col-sm-3 col-xs-12 padding-t25">
+		<div class="col-sm-12 col-xs-12 padding-b25">
+			<div class="company-bg">
+				<img src="img/items/files/Img-1.jpg" class="item-image animated pulse" id="item1" data-toggle="modal" data-target="#myModal1">
+				<div id="myModal1" class="modal fade" role="dialog">
+					<div class="modal-dialog">				  
+						<img src="img/items/files/Img-1.jpg" class="item-image">				  
+					</div>
+				</div>				  
+			</div>
+		</div>
+		<div class="col-sm-12 col-xs-12 padding-b25">
+			<div class="company-bg">
+				<img src="img/items/files/Img-2.jpg" class="item-image animated pulse" id="item1" data-toggle="modal" data-target="#myModal2">
+				<div id="myModal2" class="modal fade" role="dialog">
+					<div class="modal-dialog">				  
+						<img src="img/items/files/Img-2.jpg" class="item-image">				  
+					</div>
+				</div>				  
+			</div>
+		</div>
+	</div>
+
+	<div class="col-sm-3 col-xs-12 padding-t25">
+		<div class="col-sm-12 col-xs-12 padding-b25">
+			<div class="company-bg">
+				<img src="img/items/files/Img-3.jpg" class="item-image animated pulse" id="item1" data-toggle="modal" data-target="#myModal3">
+				<div id="myModal3" class="modal fade" role="dialog">
+					<div class="modal-dialog">				  
+						<img src="img/items/files/Img-3.jpg" class="item-image">				  
+					</div>
+				</div>				  
+			</div>
+		</div>
+		<div class="col-sm-12 col-xs-12 padding-b25">
+			<div class="company-bg">
+				<img src="img/items/files/Img-4.jpg" class="item-image animated pulse" id="item1" data-toggle="modal" data-target="#myModal4">
+				<div id="myModal4" class="modal fade" role="dialog">
+					<div class="modal-dialog">				  
+						<img src="img/items/files/Img-4.jpg" class="item-image">				  
+					</div>
+				</div>				  
+			</div>
+		</div>
+	</div>
+	
+
+	<div class="col-sm-12 col-xs-12">
+		<div class="col-sm-4 col-xs-12 padding-b25">
+			<div class="company-bg">
+				<img src="img/items/files/Img-5.jpg" class="item-image animated pulse" id="item1" data-toggle="modal" data-target="#myModal5">
+				<div id="myModal5" class="modal fade" role="dialog">
+					<div class="modal-dialog">				  
+						<img src="img/items/files/Img-5.jpg" class="item-image">				  
+					</div>
+				</div>				  
+			</div>
+		</div>
+		<div class="col-sm-4 col-xs-12 padding-b25">
+			<div class="company-bg">
+				<img src="img/items/files/Img-6.jpg" class="item-image animated pulse" id="item1" data-toggle="modal" data-target="#myModal6">
+				<div id="myModal6" class="modal fade" role="dialog">
+					<div class="modal-dialog">				  
+						<img src="img/items/files/Img-6.jpg" class="item-image">				  
+					</div>
+				</div>				  
+			</div>
+		</div>
+		<div class="col-sm-4 col-xs-12 padding-b25">
+			<div class="company-bg">
+				<img src="img/items/files/Img-7.jpg" class="item-image animated pulse" id="item1" data-toggle="modal" data-target="#myModal7">
+				<div id="myModal7" class="modal fade" role="dialog">
+					<div class="modal-dialog">				  
+						<img src="img/items/files/Img-7.jpg" class="item-image">				  
+					</div>
+				</div>				  
+			</div>
+		</div>
+	</div>
+
+</div>	
+
+<script>
+
+	var links = new Array();
+	
+	links[0] = "files/Business Flayer - Straight Design.zip";
+	
+	$(document).ready(function(){
+
+		$(".item-image").Lazy();
+		
+		$("#free1").click(function(){
+			window.open(links[0],"_blank");
+		});
+
+	});
+</script>
+
+</body>
+
+</html>
